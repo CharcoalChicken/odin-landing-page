@@ -1,0 +1,46 @@
+/*** Whole Document Styling ***/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*** Header styling ***/
+
+.header {
+    background-color: #5F8575;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-weight: 900;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 50px; 
+}
+
+.links li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.links li a:hover {
+    color: #bfdcd0;
+}
+
+/*** Main styling ***/
+
+/*** Footer styling ***/
