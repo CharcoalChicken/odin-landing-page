@@ -6,6 +6,19 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*** Getting footer to stick to bottom ***/
+
+body {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
 /*** Header styling ***/
 
 .header {
@@ -19,8 +32,10 @@
 
 .header-logo {
     font-weight: 900;
-    font-size: 36px;
+    font-size: 24px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .links {
@@ -43,4 +58,44 @@
 
 /*** Main styling ***/
 
+.section-1 {
+    background-color: #5F8575;
+    color: #ffffff;
+    padding: 20px 120px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    padding: 20px;
+    height: auto;
+    width: 400px;
+    gap: 200px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/*** Button Styling for all sign up buttons in document ***/
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+  }
+
 /*** Footer styling ***/
+.footer {
+    background-color: #5F8575;
+    color: #ffffff;
+    padding: 20px;
+    font-size: smaller;
+    text-align: center;
+}
