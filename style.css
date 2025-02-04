@@ -91,6 +91,15 @@ body {
     align-self: flex-start;
 }
 
+.hero-button:hover {
+    cursor: pointer;
+}
+
+.hero-button:active {
+    background-color: lightgray;
+    transform: translateY(4px);
+}
+
 /*** Services Styling ***/
 .services {
     background-color: #ffffff;
