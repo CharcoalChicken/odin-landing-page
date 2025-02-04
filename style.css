@@ -157,6 +157,41 @@ body {
 .sign-up {
     background-color: #bdd3ca;
     color: white;
+    padding: 200px 500px;
+}
+
+.signup-container {
+    background-color: #2a3c34;
+    border-radius: 10px;
+    padding: 40px;    
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.lineone {
+    font-weight: bold;
+}
+
+.linetwo {
+    color: lightgray;
+}
+
+.signup-button {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    align-self: flex-start;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+}
+
+.signup-button:active {
+    background-color: lightgray;
+    transform: translateY(4px);
 }
 
 
