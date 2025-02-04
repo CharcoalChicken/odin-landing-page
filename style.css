@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .main {
@@ -22,8 +22,8 @@ body {
 /*** Header styling ***/
 
 .header {
-    background-color: #5F8575;
-    color: #ffffff;
+    background-color: #1F2937;
+    font-size: 18px;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@ body {
 }
 
 .header-logo {
-    font-weight: 900;
+    color: #f9fAf8;
     font-size: 24px;
     padding: 10px;
     display: flex;
@@ -49,22 +49,32 @@ body {
 
 .links li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #E5E7EB;
 }
 
 .links li a:hover {
-    color: #bfdcd0;
+    color: lightgrey;
 }
 
 /*** Hero Styling ***/
 
 .hero {
-    background-color: #5F8575;
-    color: #ffffff;
-    padding: 20px;
+    background-color: #1F2937;
+    padding: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-container {
@@ -73,18 +83,17 @@ body {
     gap: 15px;
     padding: 20px;
     height: auto;
-    width: 400px;
 }
 
 .hero-img {
     height: 200px;
-    width: auto;
+    width: 400px;
     display: flex;
     flex-direction: row;
 }
 
 .hero-button {
-    background-color: white;
+    background-color: #3882f6;
     border-radius: 10px;
     border: none;
     padding: 10px 15px;
@@ -96,13 +105,12 @@ body {
 }
 
 .hero-button:active {
-    background-color: lightgray;
     transform: translateY(4px);
 }
 
 /*** Services Styling ***/
 .services {
-    background-color: #bdd3ca;
+    background-color: #ffffff;
     color: white;
     display: flex;
     padding: 20px;
@@ -112,6 +120,8 @@ body {
 
 .service-h2 {
     margin-bottom: 30px;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .service-types {
@@ -133,8 +143,8 @@ body {
 
 /*** Quote Styling ***/
 .quote {
-    background-color: #9daba5;
-    color: white;
+    background-color: #e5e7eb;
+    color: #1f2837;
     display: flex;
     flex-direction: column;
     padding: 200px 350px;
@@ -142,7 +152,7 @@ body {
 
 .quote-p {
     font-style: italic;
-    font-weight: lighter;
+    font-weight: light;
     font-size: 36px;
     text-align: left; 
 }
@@ -155,32 +165,26 @@ body {
 
 /*** Sign Up Styling ***/
 .sign-up {
-    background-color: #bdd3ca;
+    background-color: #ffffff;
     color: white;
     padding: 200px 500px;
 }
 
 .signup-container {
-    background-color: #2a3c34;
+    background-color: #3882F6;
     border-radius: 10px;
-    padding: 40px;    
+    padding: 40px;  
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
 }
 
-.lineone {
-    font-weight: bold;
-}
-
-.linetwo {
-    color: lightgray;
-}
-
 .signup-button {
-    background-color: white;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
     border-radius: 10px;
-    border: none;
     padding: 10px 15px;
     align-self: flex-start;
 }
@@ -190,16 +194,15 @@ body {
 }
 
 .signup-button:active {
-    background-color: lightgray;
     transform: translateY(4px);
 }
 
 
 /*** Footer styling ***/
 .footer {
-    background-color: #5F8575;
+    background-color: #1F2937;
     color: #ffffff;
-    padding: 20px;
+    padding: 30px;
     font-size: smaller;
     text-align: center;
 }
