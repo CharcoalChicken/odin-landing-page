@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 /*** Getting footer to stick to bottom ***/
@@ -11,8 +11,8 @@
 body {
     display: flex;
     flex-direction: column;
-    border: 5px solid red;
     height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main {
@@ -56,40 +56,76 @@ body {
     color: #bfdcd0;
 }
 
-/*** Main styling ***/
+/*** Hero Styling ***/
 
-.section-1 {
+.hero {
     background-color: #5F8575;
     color: #ffffff;
-    padding: 20px 120px;
-
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.container {
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     padding: 20px;
     height: auto;
     width: 400px;
-    gap: 200px;
 }
 
-img {
+.hero-img {
     height: 200px;
     width: auto;
     display: flex;
     flex-direction: row;
 }
 
-/*** Button Styling for all sign up buttons in document ***/
-
-button {
+.hero-button {
     background-color: white;
     border-radius: 10px;
-    padding: 10px 10px;
     border: none;
-  }
+    padding: 10px 15px;
+    align-self: flex-start;
+}
+
+/*** Services Styling ***/
+.services {
+    background-color: #ffffff;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-h2 {
+    margin-bottom: 30px;
+}
+
+.service-types {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.service-img {
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.service-p {
+    margin-top: 20px;
+}
+
+/*** Quote Styling ***/
+
+/*** Sign Up Styling ***/
+
+
 
 /*** Footer styling ***/
 .footer {
@@ -98,4 +134,9 @@ button {
     padding: 20px;
     font-size: smaller;
     text-align: center;
+}
+
+
+.sections {
+    padding: 20px 120px;
 }
