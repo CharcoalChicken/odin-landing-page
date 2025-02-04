@@ -122,6 +122,25 @@ body {
 }
 
 /*** Quote Styling ***/
+.quote {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 350px;
+}
+
+.quote-p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: left; 
+}
+
+.author {
+    font-weight: bold;
+    font-size: 26px;
+    align-self: flex-end;
+}
 
 /*** Sign Up Styling ***/
 
