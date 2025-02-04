@@ -102,7 +102,8 @@ body {
 
 /*** Services Styling ***/
 .services {
-    background-color: #ffffff;
+    background-color: #bdd3ca;
+    color: white;
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -132,7 +133,8 @@ body {
 
 /*** Quote Styling ***/
 .quote {
-    background-color: lightgray;
+    background-color: #9daba5;
+    color: white;
     display: flex;
     flex-direction: column;
     padding: 200px 350px;
@@ -152,7 +154,10 @@ body {
 }
 
 /*** Sign Up Styling ***/
-
+.sign-up {
+    background-color: #bdd3ca;
+    color: white;
+}
 
 
 /*** Footer styling ***/
