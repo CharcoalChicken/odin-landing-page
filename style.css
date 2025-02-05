@@ -129,17 +129,25 @@ body {
     gap: 20px;
 }
 
+.services-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .service-img {
-    height: 200px;
     width: 200px;
+    height: 200px;
     border-radius: 10px;
     border: 5px solid #3882f6;
-    display: flex;
-    flex-direction: row;
+    align-self: center;
 }
 
 .service-p {
-    margin-top: 20px;    
+    padding: 20px;   
+    text-align: center; 
     color: black;
 }
 
